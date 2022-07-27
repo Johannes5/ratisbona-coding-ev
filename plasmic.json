@@ -1,0 +1,179 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": "3.0.3",
+      "cssFilePath": "plasmic/react_slick/plasmic_react_slick.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "Slider",
+          "componentImportPath": "react-slick"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "2uxAq5bBM7QPimw2pErK3f",
+      "projectApiToken": "lPKTLTaJkRl14Vm6OQ2HtJ2gVKzOJEwwXOXJnpoWpJTVNYbhkdYLq95jM1LbpshwUDoqxMw0ghb1e2lvIvBlvQ",
+      "projectName": "Ratisbona Coding e.V.",
+      "version": "latest",
+      "cssFilePath": "plasmic/ratisbona_coding_e_v/plasmic_ratisbona_coding_e_v.module.css",
+      "components": [
+        {
+          "id": "_-xn9pVSHCvw",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6SRNDKk9BG",
+          "name": "Cta",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicCta.tsx",
+          "importSpec": {
+            "modulePath": "Cta.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JeGt_Q8XkwU",
+          "name": "EventCard",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicEventCard.tsx",
+          "importSpec": {
+            "modulePath": "EventCard.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicEventCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UZdB-6Pp6r",
+          "name": "EventBadge",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicEventBadge.tsx",
+          "importSpec": {
+            "modulePath": "EventBadge.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicEventBadge.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Znyuo0YrdF",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "8k_j5ssWFG",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "mqGymOvZ9x",
+          "name": "TextIcon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Text.tsx"
+        },
+        {
+          "id": "g2Gu2HC5c7",
+          "name": "Line3Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Line3.tsx"
+        },
+        {
+          "id": "_0z1TQ2YHb",
+          "name": "ArrowForward24RegularIcon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__ArrowForward24Regular.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "YlbEofQDRu",
+          "name": "image 1",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image1.png"
+        },
+        {
+          "id": "JzZ1Hp_pe5",
+          "name": "image 3",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image3.png"
+        },
+        {
+          "id": "3SUMZzYTMw",
+          "name": "Graph",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/graph.svg"
+        },
+        {
+          "id": "l47PYZa8n",
+          "name": "CleanShot 2022-07-26 at 19.06.26@2x.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/cleanShot20220726At1906262Xpng.png"
+        },
+        {
+          "id": "drWiWVcMx",
+          "name": "image",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "HEKioeNKluyfQ",
+        "name": "Screen",
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "contextFilePath": "plasmic/ratisbona_coding_e_v/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}

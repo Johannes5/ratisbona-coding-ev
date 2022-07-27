@@ -1,0 +1,69 @@
+{
+  "props": [
+    {
+      "name": "Blue",
+      "type": "color",
+      "value": "#4286D5",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "7kDr1ciHD"
+      }
+    },
+    {
+      "name": "Dark Background",
+      "type": "color",
+      "value": "#181818",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "F8Rh8ISxs"
+      }
+    },
+    {
+      "name": "Dark Grey",
+      "type": "color",
+      "value": "#222222",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "ql2eQhUxe"
+      }
+    },
+    {
+      "name": "Orange",
+      "type": "color",
+      "value": "#F19F3F",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "hkFPzqtVU"
+      }
+    },
+    {
+      "name": "Purple",
+      "type": "color",
+      "value": "#6522B9",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "V_J1iFUHE"
+      }
+    },
+    {
+      "name": "Text Color",
+      "type": "color",
+      "value": "#F8F8F8",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "wOQDIUAYa"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
