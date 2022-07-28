@@ -342,7 +342,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   >
                     {hasVariant(globalVariants, "screen", "mobileOnly")
                       ? "…naja, so ernst ist es jetzt dann auch nicht. \nAber wir haben definitiv kein Interesse daran unser Privileg für uns zu behalten und andere zurück zu lassen. \nDaher wollen wir dafür sogen dass Menschen in unserer Region wissen was möglich ist und ihnen unsere Fähigkeiten zugänglich und schmackhaft machen.\nDas erreichen wir zum Beispiel indem wir Events an Schulen organisieren. Oder einen Rahmen und ein Publikum für Vorträge schaffen."
-                      : "…naja, so ernst ist es jetzt dann auch nicht. \nAber wir haben definitiv kein Interesse daran unser Privileg für uns zu behalten und andere zurück zu lassen. \nDaher wollen wir dafür sogen dass Menschen in unserer Region wissen was möglich ist und ihnen unsere Fähigkeiten zugänglich und schmackhaft machen.\nDas erreichen wir zum Beispiel indem wir Events an Schulen organisieren. Oder einen Rahmen und ein Publikum für Vorträge schaffen."}
+                      : "…naja, so ernst ist es jetzt dann auch nicht. \nAber wir haben definitiv kein Interesse daran unser Privileg für uns zu behalten und andere zurück zu lassen. \nDaher wollen wir dafür sorgen, dass Menschen in unserer Region wissen was möglich ist und ihnen unsere Fähigkeiten zugänglich und schmackhaft machen.\nDas erreichen wir zum Beispiel, indem wir Events an Schulen organisieren. Oder einen Rahmen und ein Publikum für Vorträge schaffen."}
                   </div>
                 </p.Stack>
 
@@ -496,7 +496,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "auch tangentiale Skill-Sets wie Online-Marketing und Design werden bei uns gerne gesehen!"
+                    "Auch tangentiale Skill-Sets wie Online-Marketing und Design werden bei uns gerne gesehen!"
                   }
                 </div>
               </p.Stack>

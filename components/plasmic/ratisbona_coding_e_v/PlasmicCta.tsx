@@ -155,9 +155,22 @@ function PlasmicCta__RenderFunc(props: {
                       sty.span
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "oder fragst dich wie du uns unterstützen kannst?"
-                      : "oder fragst dich wie du uns unterstützen kannst?"}
+                    {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                      "oder fragst dich wie du uns unterstützen kannst?"
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000" }}
+                        >
+                          {"oder fragst dich wie du uns unterstützen kannst?"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
                   </span>
                 }
                 <React.Fragment>{""}</React.Fragment>
@@ -191,9 +204,22 @@ function PlasmicCta__RenderFunc(props: {
                       sty.span
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "oder fragst dich wie du uns unterstützen kannst?"
-                      : "oder fragst dich wie du uns unterstützen kannst?"}
+                    {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                      "oder fragst dich wie du uns unterstützen kannst?"
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000" }}
+                        >
+                          {"oder fragst dich wie du uns unterstützen kannst?"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
                   </span>
                 }
                 <React.Fragment>{""}</React.Fragment>
