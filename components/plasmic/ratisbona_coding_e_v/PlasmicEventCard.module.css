@@ -162,7 +162,7 @@
 .img__suI5Q > picture > img {
   object-fit: cover;
 }
-.img__suI5Q > .__wab_img-spacer > img {
+.img__suI5Q > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .img__plqYn {
@@ -173,7 +173,7 @@
 .img__plqYn > picture > img {
   object-fit: cover;
 }
-.img__plqYn > .__wab_img-spacer > img {
+.img__plqYn > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .cardFooter {

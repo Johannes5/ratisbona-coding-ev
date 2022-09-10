@@ -11,6 +11,16 @@
       }
     },
     {
+      "name": "Bright Green",
+      "type": "color",
+      "value": "#6522B9",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "dk0oEcSRf"
+      }
+    },
+    {
       "name": "Dark Background",
       "type": "color",
       "value": "#181818",
@@ -41,6 +51,16 @@
       }
     },
     {
+      "name": "Pale Orange",
+      "type": "color",
+      "value": "#F3BD77",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "K2VBlOT2U"
+      }
+    },
+    {
       "name": "Purple",
       "type": "color",
       "value": "#6522B9",
@@ -48,6 +68,16 @@
       "meta": {
         "projectId": "2uxAq5bBM7QPimw2pErK3f",
         "id": "V_J1iFUHE"
+      }
+    },
+    {
+      "name": "Salmon",
+      "type": "color",
+      "value": "#FA9065",
+      "category": "color",
+      "meta": {
+        "projectId": "2uxAq5bBM7QPimw2pErK3f",
+        "id": "vgTFn2ZZr"
       }
     },
     {

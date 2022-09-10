@@ -153,11 +153,27 @@
           "id": "drWiWVcMx",
           "name": "image",
           "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image.png"
+        },
+        {
+          "id": "4r1rDySxe",
+          "name": "header_black-01 1",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/headerBlack011.png"
+        },
+        {
+          "id": "669fblsbH",
+          "name": "image 2",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image2.png"
         }
       ],
       "indirect": false,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "HHT-3kNE7M",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        }
+      ]
     }
   ],
   "globalVariants": {
@@ -174,6 +190,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.184",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+  "cliVersion": "0.1.186",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.186/dist/plasmic.schema.json"
 }

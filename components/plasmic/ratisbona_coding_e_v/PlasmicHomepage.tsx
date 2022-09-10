@@ -68,6 +68,7 @@ export type PlasmicHomepage__OverridesType = {
   ratisbonaCodingEVLogo?: p.Flex<"div">;
   group?: p.Flex<"div">;
   logo?: p.Flex<"div">;
+  headerBlack011?: p.Flex<"div">;
   span?: p.Flex<"span">;
   rotatingHeadlineText?: p.Flex<"div">;
   intro?: p.Flex<"div">;
@@ -123,7 +124,7 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      {}
+      <Head></Head>
 
       <style>{`
         body {
@@ -175,29 +176,6 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames(projectcss.all, sty.hero)}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileOnly")
-                  ? true
-                  : false
-              ) ? (
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img___7FeF)}
-                  displayHeight={"auto" as const}
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"60%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"auto" as const}
-                  loading={"lazy" as const}
-                  src={{
-                    src: "/plasmic/ratisbona_coding_e_v/images/image.png",
-                    fullWidth: 558,
-                    fullHeight: 206,
-                    aspectRatio: undefined
-                  }}
-                />
-              ) : null}
-              {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
               ) ? (
                 <div
@@ -237,6 +215,60 @@ function PlasmicHomepage__RenderFunc(props: {
                     />
                   </p.Stack>
                 </div>
+              ) : null}
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+              ) ? (
+                <div
+                  data-plasmic-name={"headerBlack011"}
+                  data-plasmic-override={overrides.headerBlack011}
+                  className={classNames(projectcss.all, sty.headerBlack011)}
+                />
+              ) : null}
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? true
+                  : false
+              ) ? (
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__nCdXg)}
+                  displayHeight={"81px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/ratisbona_coding_e_v/images/image2.png",
+                    fullWidth: 652,
+                    fullHeight: 258,
+                    aspectRatio: undefined
+                  }}
+                />
+              ) : null}
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+              ) ? (
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__kcCzt)}
+                  displayHeight={"429px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src:
+                      "/plasmic/ratisbona_coding_e_v/images/headerBlack011.png",
+                    fullWidth: 1042,
+                    fullHeight: 1042,
+                    aspectRatio: undefined
+                  }}
+                />
               ) : null}
 
               <div
@@ -361,10 +393,9 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#F47373" }}
+                        style={{ color: "#FA9065" }}
                       >
                         {"let"}
                       </span>
@@ -451,7 +482,6 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
                       style={{ color: "#6522B9", fontWeight: 700 }}
@@ -844,7 +874,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   </React.Fragment>
                   <span
                     className={"plasmic_default__all plasmic_default__span"}
-                    style={{ color: "#3B9438" }}
+                    style={{ color: "#82BD53" }}
                   >
                     {"Outdoors"}
                   </span>
@@ -891,6 +921,7 @@ const PlasmicDescendants = {
     "ratisbonaCodingEVLogo",
     "group",
     "logo",
+    "headerBlack011",
     "span",
     "rotatingHeadlineText",
     "intro",
@@ -923,6 +954,7 @@ const PlasmicDescendants = {
     "ratisbonaCodingEVLogo",
     "group",
     "logo",
+    "headerBlack011",
     "span",
     "rotatingHeadlineText",
     "intro",
@@ -952,12 +984,14 @@ const PlasmicDescendants = {
     "ratisbonaCodingEVLogo",
     "group",
     "logo",
+    "headerBlack011",
     "span",
     "rotatingHeadlineText"
   ],
   ratisbonaCodingEVLogo: ["ratisbonaCodingEVLogo", "group", "logo"],
   group: ["group", "logo"],
   logo: ["logo"],
+  headerBlack011: ["headerBlack011"],
   span: ["span"],
   rotatingHeadlineText: ["rotatingHeadlineText"],
   intro: ["intro", "top", "topCard", "codeCard", "bottomCard"],
@@ -1023,6 +1057,7 @@ type NodeDefaultElementType = {
   ratisbonaCodingEVLogo: "div";
   group: "div";
   logo: "div";
+  headerBlack011: "div";
   span: "span";
   rotatingHeadlineText: "div";
   intro: "div";
@@ -1114,6 +1149,7 @@ export const PlasmicHomepage = Object.assign(
     ratisbonaCodingEVLogo: makeNodeComponent("ratisbonaCodingEVLogo"),
     group: makeNodeComponent("group"),
     logo: makeNodeComponent("logo"),
+    headerBlack011: makeNodeComponent("headerBlack011"),
     span: makeNodeComponent("span"),
     rotatingHeadlineText: makeNodeComponent("rotatingHeadlineText"),
     intro: makeNodeComponent("intro"),

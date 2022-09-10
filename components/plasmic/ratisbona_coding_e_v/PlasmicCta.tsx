@@ -128,7 +128,6 @@ function PlasmicCta__RenderFunc(props: {
           >
             {hasVariant(globalVariants, "screen", "mobileOnly") ? (
               <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ color: "#FFFFFF" }}
@@ -159,7 +158,6 @@ function PlasmicCta__RenderFunc(props: {
                       "oder fragst dich wie du uns unterstützen kannst?"
                     ) : (
                       <React.Fragment>
-                        <React.Fragment>{""}</React.Fragment>
                         <span
                           className={
                             "plasmic_default__all plasmic_default__span"
@@ -168,7 +166,6 @@ function PlasmicCta__RenderFunc(props: {
                         >
                           {"oder fragst dich wie du uns unterstützen kannst?"}
                         </span>
-                        <React.Fragment>{""}</React.Fragment>
                       </React.Fragment>
                     )}
                   </span>
@@ -177,7 +174,6 @@ function PlasmicCta__RenderFunc(props: {
               </React.Fragment>
             ) : (
               <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
                   style={{ color: "#FFFFFF" }}
@@ -208,7 +204,6 @@ function PlasmicCta__RenderFunc(props: {
                       "oder fragst dich wie du uns unterstützen kannst?"
                     ) : (
                       <React.Fragment>
-                        <React.Fragment>{""}</React.Fragment>
                         <span
                           className={
                             "plasmic_default__all plasmic_default__span"
@@ -217,7 +212,6 @@ function PlasmicCta__RenderFunc(props: {
                         >
                           {"oder fragst dich wie du uns unterstützen kannst?"}
                         </span>
-                        <React.Fragment>{""}</React.Fragment>
                       </React.Fragment>
                     )}
                   </span>
