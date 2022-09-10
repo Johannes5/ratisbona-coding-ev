@@ -104,7 +104,8 @@ function Homepage() {
 
 const bgImage = "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=)"
 
-    return <PlasmicHomepage root={{style: {backgroundImage: bgImage}}}
+    return <PlasmicHomepage
+        root={{style: {backgroundImage: bgImage}}}
         rotatingHeadlineText={
             <TextAnimation
                 wordArray={[
