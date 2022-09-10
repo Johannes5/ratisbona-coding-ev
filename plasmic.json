@@ -163,6 +163,11 @@
           "id": "669fblsbH",
           "name": "image 2",
           "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image2.png"
+        },
+        {
+          "id": "H2LuuTlD8",
+          "name": "Dot-Transparent.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/dotTransparentpng.png"
         }
       ],
       "indirect": false,

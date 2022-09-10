@@ -22,6 +22,8 @@
   max-width: 100%;
   left: 0px;
   top: 0px;
+  background: url("/plasmic/ratisbona_coding_e_v/images/dotTransparentpng.png") bottom 30% right 30% / 18% 18% repeat;
+  opacity: 0.4;
   min-width: 0;
   flex-shrink: 0;
   padding: 8px;
