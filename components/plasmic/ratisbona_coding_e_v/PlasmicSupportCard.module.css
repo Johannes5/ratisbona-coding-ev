@@ -1,0 +1,95 @@
+.root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 0;
+}
+.badge {
+  flex-direction: row;
+  background: linear-gradient(248deg, #1e5b1c 35%, rgba(44, 75, 33, 1) 85%) 0%
+    0% / 100% 100% no-repeat;
+  box-shadow: inset 0px 0px 0px 2px #087c0663;
+  transform: translate(0.07699999999999818px, 0px);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-bottom: -20px;
+  z-index: 1;
+  border-radius: 10.674px;
+  padding: 10.674px 16.012px;
+}
+.badge > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 13.343px);
+  width: calc(100% + 13.343px);
+}
+.badge > :global(.__wab_flex-container) > *,
+.badge > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.badge > :global(.__wab_flex-container) > picture > img,
+.badge > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 13.343px;
+}
+.slotTargetSlot {
+  font-family: "Rubik", sans-serif;
+  font-size: 21.349px;
+  font-weight: 400;
+  color: rgba(128, 213, 61, 1);
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.card {
+  flex-direction: row;
+  background: linear-gradient(
+      228deg,
+      rgba(33, 32, 33, 1) 53%,
+      rgba(34, 32, 33, 1) 113%
+    )
+    0% 0% / 100% 100% no-repeat;
+  filter: drop-shadow(0px 2.294px 12.781px rgba(0, 0, 0, 0.159));
+  transform: translate(0px, 0.1739999999999995px);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  border-radius: 24px;
+  padding: 40px 30px;
+}
+.card > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.card > :global(.__wab_flex-container) > *,
+.card > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.card > :global(.__wab_flex-container) > picture > img,
+.card > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  min-width: 0;
+}
+.slotTargetChildren {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 100%;
+  letter-spacing: 0em;
+}

@@ -48,6 +48,7 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: _-xn9pVSHCvw/
 import GroupIcon from "./icons/PlasmicIcon__Group"; // plasmic-import: Znyuo0YrdF/icon
 import Group2Icon from "./icons/PlasmicIcon__Group2"; // plasmic-import: 8k_j5ssWFG/icon
 import TextIcon from "./icons/PlasmicIcon__Text"; // plasmic-import: mqGymOvZ9x/icon
+import ArrowForward24RegularIcon from "./icons/PlasmicIcon__ArrowForward24Regular"; // plasmic-import: _0z1TQ2YHb/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -74,6 +75,7 @@ export type PlasmicHomepage__OverridesType = {
   intro?: p.Flex<"div">;
   top?: p.Flex<"div">;
   topCard?: p.Flex<"div">;
+  combinedExpertise?: p.Flex<"div">;
   codeCard?: p.Flex<"div">;
   bottomCard?: p.Flex<"div">;
   eventList?: p.Flex<"div">;
@@ -92,6 +94,12 @@ export type PlasmicHomepage__OverridesType = {
   gallery?: p.Flex<"div">;
   ctaSection?: p.Flex<"div">;
   cta?: p.Flex<typeof Cta>;
+  figmaPaste?: p.Flex<"div">;
+  oderSendeUnsEineMail?: p.Flex<"div">;
+  sendeUnsEineMail?: p.Flex<"a"> & Partial<LinkProps>;
+  ctaSection2?: p.Flex<"div">;
+  bigCta?: p.Flex<"div">;
+  whiteButton?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -116,7 +124,10 @@ function PlasmicHomepage__RenderFunc(props: {
     [props.args]
   );
 
-  const $props = args;
+  const $props = {
+    ...args,
+    ...variants
+  };
 
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsheKioeNKluyfQ()
@@ -377,159 +388,240 @@ function PlasmicHomepage__RenderFunc(props: {
                       : "…naja, so ernst ist es jetzt dann auch nicht. \nAber wir haben definitiv kein Interesse daran unser Privileg für uns zu behalten und andere zurück zu lassen. \nDaher wollen wir dafür sorgen, dass Menschen in unserer Region wissen was möglich ist und ihnen unsere Fähigkeiten zugänglich und schmackhaft machen.\nDas erreichen wir zum Beispiel, indem wir Events an Schulen organisieren. Oder einen Rahmen und ein Publikum für Vorträge schaffen."}
                   </div>
                 </p.Stack>
+              </p.Stack>
 
+              {true ? (
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"codeCard"}
-                  data-plasmic-override={overrides.codeCard}
+                  data-plasmic-name={"combinedExpertise"}
+                  data-plasmic-override={overrides.combinedExpertise}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.codeCard)}
+                  className={classNames(projectcss.all, sty.combinedExpertise)}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__rRPuK
-                    )}
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"codeCard"}
+                    data-plasmic-override={overrides.codeCard}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.codeCard)}
                   >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#FA9065" }}
-                      >
-                        {"let"}
-                      </span>
-                      <React.Fragment>{"  "}</React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#DADADA" }}
-                      >
-                        {"combinedExpertise ="}
-                      </span>
-                      <React.Fragment> </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#4286D5" }}
-                      >
-                        {"„2“"}
-                      </span>
-                      <React.Fragment> </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#DADADA" }}
-                      >
-                        {"+"}
-                      </span>
-                      <React.Fragment> </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#4286D5" }}
-                      >
-                        {"„2“ "}
-                      </span>
-                      <React.Fragment>{"// = „22“"}</React.Fragment>
-                    </React.Fragment>
-                  </div>
-                </p.Stack>
-              </p.Stack>
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__x7T57)}
-                displayHeight={
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? ("177px" as const)
-                    : ("auto" as const)
-                }
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"821.728px" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: "/plasmic/ratisbona_coding_e_v/images/graph.svg",
-                  fullWidth: 821.728,
-                  fullHeight: 255.684,
-                  aspectRatio: 3.176923
-                }}
-              />
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"bottomCard"}
-                data-plasmic-override={overrides.bottomCard}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.bottomCard)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__w0Z0B
-                  )}
-                >
-                  {
-                    "Kaum ein Handwerk ist so tief und breit wie das Entwickeln von Software.\nUnd kaum eine Disziplin profitiert so leicht von Automatisierung und Wiederverwendbarkeit."
-                  }
-                </div>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ya6Th
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#6522B9", fontWeight: 700 }}
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__rRPuK
+                      )}
                     >
-                      {"Abstraktion"}
-                    </span>
-                    <React.Fragment>
-                      {"  ist schließlich der Name des Programms."}
-                    </React.Fragment>
-                  </React.Fragment>
-                </div>
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FA9065" }}
+                          >
+                            {"let"}
+                          </span>
+                          <React.Fragment>{"  "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#DADADA" }}
+                          >
+                            {"combinedExpertise "}
+                          </span>
+                          <React.Fragment>{"\n"}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#DADADA" }}
+                          >
+                            {"="}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#4286D5" }}
+                          >
+                            {"„2“"}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#DADADA" }}
+                          >
+                            {"+"}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#4286D5" }}
+                          >
+                            {"„2“ "}
+                          </span>
+                          <React.Fragment>{"// = „22“"}</React.Fragment>
+                        </React.Fragment>
+                      ) : (
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FA9065" }}
+                          >
+                            {"let"}
+                          </span>
+                          <React.Fragment>{"  "}</React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#DADADA" }}
+                          >
+                            {"combinedExpertise ="}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#4286D5" }}
+                          >
+                            {"„2“"}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#DADADA" }}
+                          >
+                            {"+"}
+                          </span>
+                          <React.Fragment> </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#4286D5" }}
+                          >
+                            {"„2“ "}
+                          </span>
+                          <React.Fragment>{"// = „22“"}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </div>
+                  </p.Stack>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__akDnB
-                  )}
-                >
-                  {
-                    "Wenn du also ein Problem, das bestimmt schon mehrfach gelöst wurde, nicht alleine anpacken willst - oder die Wahrscheinlichkeit erhöhen möchtest auf Wissen zu stoßen von dem doch noch nicht weißt, dass du es noch nicht weißt"
-                  }
-                </div>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__x7T57)}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ("177px" as const)
+                        : ("auto" as const)
+                    }
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"821.728px" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/ratisbona_coding_e_v/images/graph.svg",
+                      fullWidth: 821.728,
+                      fullHeight: 255.684,
+                      aspectRatio: 3.176923
+                    }}
+                  />
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__pxsmV
-                  )}
-                >
-                  {
-                    "-> dann kannst du zB. zu unseren regelmäßigen Co-Working Sessions kommen"
-                  }
-                </div>
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"bottomCard"}
+                    data-plasmic-override={overrides.bottomCard}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.bottomCard)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__w0Z0B
+                      )}
+                    >
+                      {
+                        "Kaum ein Handwerk ist so tief und breit wie das Entwickeln von Software.\nUnd kaum eine Disziplin profitiert so leicht von Automatisierung und Wiederverwendbarkeit."
+                      }
+                    </div>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__dLopw
-                  )}
-                >
-                  {
-                    "Auch tangentiale Skill-Sets wie Online-Marketing und Design werden bei uns gerne gesehen!"
-                  }
-                </div>
-              </p.Stack>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ya6Th
+                      )}
+                    >
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#6522B9", fontWeight: 700 }}
+                        >
+                          {"Abstraktion"}
+                        </span>
+                        <React.Fragment>
+                          {"  ist schließlich der Name des Programms."}
+                        </React.Fragment>
+                      </React.Fragment>
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__akDnB
+                      )}
+                    >
+                      {
+                        "Wenn du also ein Problem, das bestimmt schon mehrfach gelöst wurde, nicht alleine anpacken willst - oder die Wahrscheinlichkeit erhöhen möchtest auf Wissen zu stoßen von dem doch noch nicht weißt, dass du es noch nicht weißt"
+                      }
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__pxsmV
+                      )}
+                    >
+                      {
+                        "-> dann kannst du zB. zu unseren regelmäßigen Co-Working Sessions kommen"
+                      }
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__dLopw
+                      )}
+                    >
+                      {
+                        "Auch tangentiale Skill-Sets wie Online-Marketing und Design werden bei uns gerne gesehen!"
+                      }
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+              ) : null}
             </p.Stack>
 
             <p.Stack
@@ -905,6 +997,114 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             ) : null}
           </p.Stack>
+
+          {(
+            hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+          ) ? (
+            <div
+              data-plasmic-name={"figmaPaste"}
+              data-plasmic-override={overrides.figmaPaste}
+              className={classNames(projectcss.all, sty.figmaPaste)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"oderSendeUnsEineMail"}
+                data-plasmic-override={overrides.oderSendeUnsEineMail}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.oderSendeUnsEineMail)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__xv2S2
+                  )}
+                >
+                  {"oder"}
+                </div>
+
+                <p.PlasmicLink
+                  data-plasmic-name={"sendeUnsEineMail"}
+                  data-plasmic-override={overrides.sendeUnsEineMail}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    sty.sendeUnsEineMail
+                  )}
+                  component={Link}
+                  platform={"nextjs"}
+                >
+                  {"sende uns eine Mail   ✉️ "}
+                </p.PlasmicLink>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__kTn1W
+                  )}
+                >
+                  {"howdy@ratisbona.ev"}
+                </div>
+              </p.Stack>
+
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? false
+                  : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"ctaSection2"}
+                  data-plasmic-override={overrides.ctaSection2}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.ctaSection2)}
+                >
+                  <div
+                    data-plasmic-name={"bigCta"}
+                    data-plasmic-override={overrides.bigCta}
+                    className={classNames(projectcss.all, sty.bigCta)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ess1H
+                      )}
+                    >
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Du möchtest Mitglied werden?"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "   Oder  fragst dich wie du uns unterstützen kannst?"
+                          }
+                        </React.Fragment>
+                      </React.Fragment>
+                    </div>
+
+                    <div
+                      data-plasmic-name={"whiteButton"}
+                      data-plasmic-override={overrides.whiteButton}
+                      className={classNames(projectcss.all, sty.whiteButton)}
+                    />
+
+                    <ArrowForward24RegularIcon
+                      className={classNames(projectcss.all, sty.svg__iOjeK)}
+                      role={"img"}
+                    />
+                  </div>
+                </p.Stack>
+              ) : null}
+            </div>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -927,6 +1127,7 @@ const PlasmicDescendants = {
     "intro",
     "top",
     "topCard",
+    "combinedExpertise",
     "codeCard",
     "bottomCard",
     "eventList",
@@ -944,7 +1145,13 @@ const PlasmicDescendants = {
     "wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen",
     "gallery",
     "ctaSection",
-    "cta"
+    "cta",
+    "figmaPaste",
+    "oderSendeUnsEineMail",
+    "sendeUnsEineMail",
+    "ctaSection2",
+    "bigCta",
+    "whiteButton"
   ],
   bg: ["bg", "freeBox"],
   freeBox: ["freeBox"],
@@ -960,6 +1167,7 @@ const PlasmicDescendants = {
     "intro",
     "top",
     "topCard",
+    "combinedExpertise",
     "codeCard",
     "bottomCard",
     "eventList",
@@ -994,9 +1202,17 @@ const PlasmicDescendants = {
   headerBlack011: ["headerBlack011"],
   span: ["span"],
   rotatingHeadlineText: ["rotatingHeadlineText"],
-  intro: ["intro", "top", "topCard", "codeCard", "bottomCard"],
-  top: ["top", "topCard", "codeCard"],
+  intro: [
+    "intro",
+    "top",
+    "topCard",
+    "combinedExpertise",
+    "codeCard",
+    "bottomCard"
+  ],
+  top: ["top", "topCard"],
   topCard: ["topCard"],
+  combinedExpertise: ["combinedExpertise", "codeCard", "bottomCard"],
   codeCard: ["codeCard"],
   bottomCard: ["bottomCard"],
   eventList: [
@@ -1042,7 +1258,20 @@ const PlasmicDescendants = {
   ],
   gallery: ["gallery"],
   ctaSection: ["ctaSection", "cta"],
-  cta: ["cta"]
+  cta: ["cta"],
+  figmaPaste: [
+    "figmaPaste",
+    "oderSendeUnsEineMail",
+    "sendeUnsEineMail",
+    "ctaSection2",
+    "bigCta",
+    "whiteButton"
+  ],
+  oderSendeUnsEineMail: ["oderSendeUnsEineMail", "sendeUnsEineMail"],
+  sendeUnsEineMail: ["sendeUnsEineMail"],
+  ctaSection2: ["ctaSection2", "bigCta", "whiteButton"],
+  bigCta: ["bigCta", "whiteButton"],
+  whiteButton: ["whiteButton"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<
@@ -1063,6 +1292,7 @@ type NodeDefaultElementType = {
   intro: "div";
   top: "div";
   topCard: "div";
+  combinedExpertise: "div";
   codeCard: "div";
   bottomCard: "div";
   eventList: "div";
@@ -1081,6 +1311,12 @@ type NodeDefaultElementType = {
   gallery: "div";
   ctaSection: "div";
   cta: typeof Cta;
+  figmaPaste: "div";
+  oderSendeUnsEineMail: "div";
+  sendeUnsEineMail: "a";
+  ctaSection2: "div";
+  bigCta: "div";
+  whiteButton: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1155,6 +1391,7 @@ export const PlasmicHomepage = Object.assign(
     intro: makeNodeComponent("intro"),
     top: makeNodeComponent("top"),
     topCard: makeNodeComponent("topCard"),
+    combinedExpertise: makeNodeComponent("combinedExpertise"),
     codeCard: makeNodeComponent("codeCard"),
     bottomCard: makeNodeComponent("bottomCard"),
     eventList: makeNodeComponent("eventList"),
@@ -1175,10 +1412,24 @@ export const PlasmicHomepage = Object.assign(
     gallery: makeNodeComponent("gallery"),
     ctaSection: makeNodeComponent("ctaSection"),
     cta: makeNodeComponent("cta"),
+    figmaPaste: makeNodeComponent("figmaPaste"),
+    oderSendeUnsEineMail: makeNodeComponent("oderSendeUnsEineMail"),
+    sendeUnsEineMail: makeNodeComponent("sendeUnsEineMail"),
+    ctaSection2: makeNodeComponent("ctaSection2"),
+    bigCta: makeNodeComponent("bigCta"),
+    whiteButton: makeNodeComponent("whiteButton"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
-    internalArgProps: PlasmicHomepage__ArgProps
+    internalArgProps: PlasmicHomepage__ArgProps,
+
+    // Page metadata
+    pageMetadata: {
+      title: "",
+      description: "",
+      ogImageSrc: "",
+      canonical: ""
+    }
   }
 );
 

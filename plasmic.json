@@ -99,6 +99,72 @@
           "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicEventBadge.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CNA6kicpvb",
+          "name": "About",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicAbout.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "X6AOmIrJmE",
+          "name": "Heading",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicHeading.tsx",
+          "importSpec": {
+            "modulePath": "Heading.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicHeading.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hP5sxMa1ug",
+          "name": "SupportCard",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicSupportCard.tsx",
+          "importSpec": {
+            "modulePath": "SupportCard.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicSupportCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5K3KabDCBP9",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "_oexzkgK5J",
+          "name": "ProjectCard",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicProjectCard.tsx",
+          "importSpec": {
+            "modulePath": "ProjectCard.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicProjectCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -126,6 +192,351 @@
           "id": "_0z1TQ2YHb",
           "name": "ArrowForward24RegularIcon",
           "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__ArrowForward24Regular.tsx"
+        },
+        {
+          "id": "Wd7gDtMC9",
+          "name": "Ellipse8Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Ellipse8.tsx"
+        },
+        {
+          "id": "EpraZJ1rNx",
+          "name": "Ellipse6Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Ellipse6.tsx"
+        },
+        {
+          "id": "lWRgBPzsE9",
+          "name": "Line2Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Line2.tsx"
+        },
+        {
+          "id": "ZIt0JkfkZT",
+          "name": "Line4Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Line4.tsx"
+        },
+        {
+          "id": "FiimafejTB",
+          "name": "Line5Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Line5.tsx"
+        },
+        {
+          "id": "dd34HMXiX4",
+          "name": "Vector1Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Vector1.tsx"
+        },
+        {
+          "id": "w-NKdqxdYF",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "Lr-EsJeMph",
+          "name": "Ellipse7Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Ellipse7.tsx"
+        },
+        {
+          "id": "oqpYGYeEG",
+          "name": "Xmlid574Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid574.tsx"
+        },
+        {
+          "id": "pjCwjOtlFp",
+          "name": "Xmlid569Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid569.tsx"
+        },
+        {
+          "id": "HHHHx-rNIh",
+          "name": "Xmlid575Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid575.tsx"
+        },
+        {
+          "id": "4LZf2O-SyJ",
+          "name": "Xmlid550Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid550.tsx"
+        },
+        {
+          "id": "rxdLPzJIwK",
+          "name": "Xmlid579Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid579.tsx"
+        },
+        {
+          "id": "N1G1W_w5_t",
+          "name": "Xmlid581Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid581.tsx"
+        },
+        {
+          "id": "cPBiR8FM7D",
+          "name": "Xmlid583Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid583.tsx"
+        },
+        {
+          "id": "OFvSQ5Y7sc",
+          "name": "Xmlid582Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid582.tsx"
+        },
+        {
+          "id": "gHaDO6iAzB",
+          "name": "Xmlid585Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid585.tsx"
+        },
+        {
+          "id": "sqlzDUdmB5",
+          "name": "Xmlid586Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid586.tsx"
+        },
+        {
+          "id": "LWnazRo58G",
+          "name": "Xmlid587Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid587.tsx"
+        },
+        {
+          "id": "tkQMbs6pI8",
+          "name": "Xmlid696Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid696.tsx"
+        },
+        {
+          "id": "gBckQTCMPR",
+          "name": "Xmlid580Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid580.tsx"
+        },
+        {
+          "id": "lI-Kkndwls",
+          "name": "Xmlid577Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid577.tsx"
+        },
+        {
+          "id": "piNgUywOShd",
+          "name": "Xmlid576Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid576.tsx"
+        },
+        {
+          "id": "Bj8QrnehWH7",
+          "name": "Xmlid1Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid1.tsx"
+        },
+        {
+          "id": "E6WR_9-e3RN",
+          "name": "Xmlid546Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid546.tsx"
+        },
+        {
+          "id": "rou1e7YzURQ",
+          "name": "Xmlid2Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid2.tsx"
+        },
+        {
+          "id": "zogWZVk1Vjo",
+          "name": "Xmlid49Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid49.tsx"
+        },
+        {
+          "id": "1mzbXUNC5Re",
+          "name": "Xmlid570Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid570.tsx"
+        },
+        {
+          "id": "0xSqqZX8q1_",
+          "name": "Xmlid106Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid106.tsx"
+        },
+        {
+          "id": "fFBtpV36X_5",
+          "name": "Xmlid99Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid99.tsx"
+        },
+        {
+          "id": "PZs7btlOzPs",
+          "name": "Xmlid143Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid143.tsx"
+        },
+        {
+          "id": "a_YBS7ldv_i",
+          "name": "Xmlid138Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid138.tsx"
+        },
+        {
+          "id": "NtdtmPVnquO",
+          "name": "Xmlid135Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid135.tsx"
+        },
+        {
+          "id": "-D2kzabACyB",
+          "name": "Xmlid130Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid130.tsx"
+        },
+        {
+          "id": "Pk7m39-GpNk",
+          "name": "Xmlid95Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid95.tsx"
+        },
+        {
+          "id": "fVVaq9osR5u",
+          "name": "Xmlid94Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid94.tsx"
+        },
+        {
+          "id": "CywMscN8TWS",
+          "name": "Xmlid488Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid488.tsx"
+        },
+        {
+          "id": "sFDFvvyv73a",
+          "name": "Xmlid7Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid7.tsx"
+        },
+        {
+          "id": "jUHl2sT9omr",
+          "name": "Xmlid89Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid89.tsx"
+        },
+        {
+          "id": "JXRKQJ8Arqo",
+          "name": "Xmlid86Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid86.tsx"
+        },
+        {
+          "id": "OoPam0-KBS7",
+          "name": "Xmlid85Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid85.tsx"
+        },
+        {
+          "id": "Mv6s_nrqDut",
+          "name": "Xmlid88Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid88.tsx"
+        },
+        {
+          "id": "jYw5wRVidek",
+          "name": "Xmlid683Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid683.tsx"
+        },
+        {
+          "id": "XLLff1oD9UI",
+          "name": "Xmlid61Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid61.tsx"
+        },
+        {
+          "id": "ppcp_EiGUfR",
+          "name": "Xmlid127Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid127.tsx"
+        },
+        {
+          "id": "S6-RPDtia",
+          "name": "Xmlid144Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid144.tsx"
+        },
+        {
+          "id": "qUHJcKNBGc",
+          "name": "Xmlid62Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid62.tsx"
+        },
+        {
+          "id": "-z7H1VkrbG",
+          "name": "Xmlid679Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid679.tsx"
+        },
+        {
+          "id": "0erRBZdQBy",
+          "name": "Xmlid154Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid154.tsx"
+        },
+        {
+          "id": "BBaaock155",
+          "name": "Xmlid153Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid153.tsx"
+        },
+        {
+          "id": "nF0H7_9NTY",
+          "name": "Xmlid152Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid152.tsx"
+        },
+        {
+          "id": "IznLp5fwnM",
+          "name": "Xmlid141Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid141.tsx"
+        },
+        {
+          "id": "7SR9pqTZYf",
+          "name": "Xmlid140Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid140.tsx"
+        },
+        {
+          "id": "npDmkiSr-t",
+          "name": "Xmlid84Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid84.tsx"
+        },
+        {
+          "id": "g11OIlw-5p",
+          "name": "Xmlid83Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid83.tsx"
+        },
+        {
+          "id": "-QO0aq1bDW",
+          "name": "Xmlid82Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid82.tsx"
+        },
+        {
+          "id": "nNg8np0P8U",
+          "name": "Xmlid112Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid112.tsx"
+        },
+        {
+          "id": "uqs_dhr9TM",
+          "name": "Xmlid102Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid102.tsx"
+        },
+        {
+          "id": "oWeEUT12HG",
+          "name": "Xmlid101Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid101.tsx"
+        },
+        {
+          "id": "7UXFFJYUbF",
+          "name": "Xmlid76Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid76.tsx"
+        },
+        {
+          "id": "Sy8QRYAcy3Z",
+          "name": "Xmlid75Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid75.tsx"
+        },
+        {
+          "id": "MIZwhhEG6a1",
+          "name": "Xmlid74Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid74.tsx"
+        },
+        {
+          "id": "U40WwJjJI5x",
+          "name": "Xmlid79Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid79.tsx"
+        },
+        {
+          "id": "PuHu87nB9MT",
+          "name": "Xmlid78Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid78.tsx"
+        },
+        {
+          "id": "u2j1qc4Vxd1",
+          "name": "Xmlid156Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid156.tsx"
+        },
+        {
+          "id": "-iPAv7_DTzU",
+          "name": "Xmlid155Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid155.tsx"
+        },
+        {
+          "id": "EnE_H8M_n0v",
+          "name": "Xmlid129Icon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Xmlid129.tsx"
+        },
+        {
+          "id": "YZAtybNzSk5",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "lBZX9HlNj7W",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/ratisbona_coding_e_v/icons/PlasmicIcon__Icon.tsx"
         }
       ],
       "images": [
@@ -163,6 +574,96 @@
           "id": "669fblsbH",
           "name": "image 2",
           "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image2.png"
+        },
+        {
+          "id": "H2LuuTlD8",
+          "name": "Dot-Transparent.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/dotTransparentpng.png"
+        },
+        {
+          "id": "L3UzO5cHe",
+          "name": "image 4",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/image4.svg"
+        },
+        {
+          "id": "h3cZReZhIZ",
+          "name": "XMLID_589_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid589.svg"
+        },
+        {
+          "id": "eTDLFXUVVQ",
+          "name": "XMLID_605_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid605.svg"
+        },
+        {
+          "id": "Q4vGLWNYwnA",
+          "name": "XMLID_65_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid65.svg"
+        },
+        {
+          "id": "K4uaWyZ7hdl",
+          "name": "XMLID_4_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid4.svg"
+        },
+        {
+          "id": "JhtbnTsTxrF",
+          "name": "XMLID_53_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid53.svg"
+        },
+        {
+          "id": "uD6fqsTFn52",
+          "name": "XMLID_58_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid58.svg"
+        },
+        {
+          "id": "kGd-FryO4s9",
+          "name": "XMLID_115_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid115.svg"
+        },
+        {
+          "id": "_pvRLqaNE8Z",
+          "name": "XMLID_66_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid66.svg"
+        },
+        {
+          "id": "nQ5yF7GWPfE",
+          "name": "XMLID_69_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid69.svg"
+        },
+        {
+          "id": "e3ZDcefvrbi",
+          "name": "XMLID_72_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid72.svg"
+        },
+        {
+          "id": "yNIP8tZYmG7",
+          "name": "XMLID_121_",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/xmlid121.svg"
+        },
+        {
+          "id": "S2QQDfCgHx",
+          "name": "Group 3",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/group3.svg"
+        },
+        {
+          "id": "CcqiPwqlP",
+          "name": "hackaburg 1.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/hackaburg1Png.png"
+        },
+        {
+          "id": "TbrO2DpxO",
+          "name": "hackaburg-hashcode 1.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/hackaburgHashcode1Png.png"
+        },
+        {
+          "id": "ufDUoZ5Yn",
+          "name": "stammtisch_logo 1.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/stammtischLogo1Png.png"
+        },
+        {
+          "id": "Rtgq3i-G5",
+          "name": "hackaburg_school 1.png",
+          "filePath": "../public/plasmic/ratisbona_coding_e_v/images/hackaburgSchool1Png.png"
         }
       ],
       "indirect": false,
@@ -172,6 +673,11 @@
           "id": "HHT-3kNE7M",
           "name": "PlasmicHead",
           "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "WxGHY8__PO",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
         }
       ]
     }

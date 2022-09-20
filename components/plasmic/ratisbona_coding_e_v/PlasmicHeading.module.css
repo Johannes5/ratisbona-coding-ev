@@ -1,0 +1,48 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  padding: 8px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetChildren {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 56px;
+  letter-spacing: 0em;
+}
+.whiteDivider {
+  background: rgba(255, 255, 255, 1);
+  width: 67px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
