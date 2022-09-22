@@ -99,8 +99,12 @@ import "slick-carousel/slick/slick.css"
 import {ScreenVariantProvider} from "../components/plasmic/ratisbona_coding_e_v/PlasmicGlobalVariant__Screen";
 import {PlasmicHomepage} from "../components/plasmic/ratisbona_coding_e_v/PlasmicHomepage";
 import TextAnimation from "../components/TextAnimation";
+import {useRouter} from "next/router";
 
 function Homepage() {
+
+    const router = useRouter()
+
 
 //const bgImage = "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=)"
 
@@ -116,6 +120,10 @@ function Homepage() {
                 ]}
             />
         }
+
+        callToActionTwo={{onClick: () => router.push('/about')}}
+
+        ratisbonaLogo={{onClick: () => router.push('/')}}
 
 
         gallery={

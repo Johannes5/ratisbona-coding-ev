@@ -165,6 +165,19 @@
           "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicProjectCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "_pf0vkQbIGT",
+          "name": "AboutAlt",
+          "type": "managed",
+          "projectId": "2uxAq5bBM7QPimw2pErK3f",
+          "renderModuleFilePath": "plasmic/ratisbona_coding_e_v/PlasmicAboutAlt.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about-2.tsx"
+          },
+          "cssFilePath": "plasmic/ratisbona_coding_e_v/PlasmicAboutAlt.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

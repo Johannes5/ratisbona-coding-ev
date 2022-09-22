@@ -64,7 +64,7 @@ export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   bg?: p.Flex<"div">;
   freeBox?: p.Flex<"div">;
-  ratisbonaCodingEVLanding?: p.Flex<"div">;
+  ratisbonaLogo?: p.Flex<"div">;
   hero?: p.Flex<"div">;
   ratisbonaCodingEVLogo?: p.Flex<"div">;
   group?: p.Flex<"div">;
@@ -93,12 +93,12 @@ export type PlasmicHomepage__OverridesType = {
   wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen?: p.Flex<"div">;
   gallery?: p.Flex<"div">;
   ctaSection?: p.Flex<"div">;
-  cta?: p.Flex<typeof Cta>;
+  callToActionOne?: p.Flex<typeof Cta>;
   figmaPaste?: p.Flex<"div">;
   oderSendeUnsEineMail?: p.Flex<"div">;
   sendeUnsEineMail?: p.Flex<"a"> & Partial<LinkProps>;
   ctaSection2?: p.Flex<"div">;
-  bigCta?: p.Flex<"div">;
+  callToActionTwo?: p.Flex<"div">;
   whiteButton?: p.Flex<"div">;
 };
 
@@ -158,26 +158,28 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"bg"}
-            data-plasmic-override={overrides.bg}
-            className={classNames(projectcss.all, sty.bg)}
-          >
-            {true ? (
-              <div
-                data-plasmic-name={"freeBox"}
-                data-plasmic-override={overrides.freeBox}
-                className={classNames(projectcss.all, sty.freeBox)}
-              />
-            ) : null}
-          </div>
+          {true ? (
+            <div
+              data-plasmic-name={"bg"}
+              data-plasmic-override={overrides.bg}
+              className={classNames(projectcss.all, sty.bg)}
+            >
+              {true ? (
+                <div
+                  data-plasmic-name={"freeBox"}
+                  data-plasmic-override={overrides.freeBox}
+                  className={classNames(projectcss.all, sty.freeBox)}
+                />
+              ) : null}
+            </div>
+          ) : null}
 
           <p.Stack
             as={"div"}
-            data-plasmic-name={"ratisbonaCodingEVLanding"}
-            data-plasmic-override={overrides.ratisbonaCodingEVLanding}
+            data-plasmic-name={"ratisbonaLogo"}
+            data-plasmic-override={overrides.ratisbonaLogo}
             hasGap={true}
-            className={classNames(projectcss.all, sty.ratisbonaCodingEvLanding)}
+            className={classNames(projectcss.all, sty.ratisbonaLogo)}
           >
             <p.Stack
               as={"div"}
@@ -990,9 +992,9 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames(projectcss.all, sty.ctaSection)}
               >
                 <Cta
-                  data-plasmic-name={"cta"}
-                  data-plasmic-override={overrides.cta}
-                  className={classNames("__wab_instance", sty.cta)}
+                  data-plasmic-name={"callToActionOne"}
+                  data-plasmic-override={overrides.callToActionOne}
+                  className={classNames("__wab_instance", sty.callToActionOne)}
                 />
               </div>
             ) : null}
@@ -1062,9 +1064,9 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.ctaSection2)}
                 >
                   <div
-                    data-plasmic-name={"bigCta"}
-                    data-plasmic-override={overrides.bigCta}
-                    className={classNames(projectcss.all, sty.bigCta)}
+                    data-plasmic-name={"callToActionTwo"}
+                    data-plasmic-override={overrides.callToActionTwo}
+                    className={classNames(projectcss.all, sty.callToActionTwo)}
                   >
                     <div
                       className={classNames(
@@ -1116,7 +1118,7 @@ const PlasmicDescendants = {
     "root",
     "bg",
     "freeBox",
-    "ratisbonaCodingEVLanding",
+    "ratisbonaLogo",
     "hero",
     "ratisbonaCodingEVLogo",
     "group",
@@ -1145,18 +1147,18 @@ const PlasmicDescendants = {
     "wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen",
     "gallery",
     "ctaSection",
-    "cta",
+    "callToActionOne",
     "figmaPaste",
     "oderSendeUnsEineMail",
     "sendeUnsEineMail",
     "ctaSection2",
-    "bigCta",
+    "callToActionTwo",
     "whiteButton"
   ],
   bg: ["bg", "freeBox"],
   freeBox: ["freeBox"],
-  ratisbonaCodingEVLanding: [
-    "ratisbonaCodingEVLanding",
+  ratisbonaLogo: [
+    "ratisbonaLogo",
     "hero",
     "ratisbonaCodingEVLogo",
     "group",
@@ -1185,7 +1187,7 @@ const PlasmicDescendants = {
     "wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen",
     "gallery",
     "ctaSection",
-    "cta"
+    "callToActionOne"
   ],
   hero: [
     "hero",
@@ -1257,20 +1259,20 @@ const PlasmicDescendants = {
     "wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen"
   ],
   gallery: ["gallery"],
-  ctaSection: ["ctaSection", "cta"],
-  cta: ["cta"],
+  ctaSection: ["ctaSection", "callToActionOne"],
+  callToActionOne: ["callToActionOne"],
   figmaPaste: [
     "figmaPaste",
     "oderSendeUnsEineMail",
     "sendeUnsEineMail",
     "ctaSection2",
-    "bigCta",
+    "callToActionTwo",
     "whiteButton"
   ],
   oderSendeUnsEineMail: ["oderSendeUnsEineMail", "sendeUnsEineMail"],
   sendeUnsEineMail: ["sendeUnsEineMail"],
-  ctaSection2: ["ctaSection2", "bigCta", "whiteButton"],
-  bigCta: ["bigCta", "whiteButton"],
+  ctaSection2: ["ctaSection2", "callToActionTwo", "whiteButton"],
+  callToActionTwo: ["callToActionTwo", "whiteButton"],
   whiteButton: ["whiteButton"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1281,7 +1283,7 @@ type NodeDefaultElementType = {
   root: "div";
   bg: "div";
   freeBox: "div";
-  ratisbonaCodingEVLanding: "div";
+  ratisbonaLogo: "div";
   hero: "div";
   ratisbonaCodingEVLogo: "div";
   group: "div";
@@ -1310,12 +1312,12 @@ type NodeDefaultElementType = {
   wennWiederEinVirusDurchDieWeltweitenMedienKursiertUmUnsAbzulenkenGefugigZuMachenUndVonEinanderZuTrennen: "div";
   gallery: "div";
   ctaSection: "div";
-  cta: typeof Cta;
+  callToActionOne: typeof Cta;
   figmaPaste: "div";
   oderSendeUnsEineMail: "div";
   sendeUnsEineMail: "a";
   ctaSection2: "div";
-  bigCta: "div";
+  callToActionTwo: "div";
   whiteButton: "div";
 };
 
@@ -1380,7 +1382,7 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     bg: makeNodeComponent("bg"),
     freeBox: makeNodeComponent("freeBox"),
-    ratisbonaCodingEVLanding: makeNodeComponent("ratisbonaCodingEVLanding"),
+    ratisbonaLogo: makeNodeComponent("ratisbonaLogo"),
     hero: makeNodeComponent("hero"),
     ratisbonaCodingEVLogo: makeNodeComponent("ratisbonaCodingEVLogo"),
     group: makeNodeComponent("group"),
@@ -1411,12 +1413,12 @@ export const PlasmicHomepage = Object.assign(
     ),
     gallery: makeNodeComponent("gallery"),
     ctaSection: makeNodeComponent("ctaSection"),
-    cta: makeNodeComponent("cta"),
+    callToActionOne: makeNodeComponent("callToActionOne"),
     figmaPaste: makeNodeComponent("figmaPaste"),
     oderSendeUnsEineMail: makeNodeComponent("oderSendeUnsEineMail"),
     sendeUnsEineMail: makeNodeComponent("sendeUnsEineMail"),
     ctaSection2: makeNodeComponent("ctaSection2"),
-    bigCta: makeNodeComponent("bigCta"),
+    callToActionTwo: makeNodeComponent("callToActionTwo"),
     whiteButton: makeNodeComponent("whiteButton"),
 
     // Metadata about props expected for PlasmicHomepage

@@ -140,6 +140,7 @@ function PlasmicEventCard__RenderFunc(props: {
         projectcss.plasmic_tokens,
         sty.root,
         {
+          [sty.roothideImage]: hasVariant(variants, "hideImage", "hideImage"),
           [sty.rootlightBackground]: hasVariant(
             variants,
             "lightBackground",

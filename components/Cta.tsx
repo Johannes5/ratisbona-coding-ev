@@ -4,11 +4,13 @@ import React, {useEffect} from "react";
 import { PlasmicCta, DefaultCtaProps } from "./plasmic/ratisbona_coding_e_v/PlasmicCta";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 import { gsap } from "gsap/dist/gsap";
+import {useRouter} from "next/router";
 
 export interface CtaProps extends DefaultCtaProps {}
 
 
 function Cta_(props: CtaProps, ref: HTMLElementRefOf<"div">) {
+  const router = useRouter()
   useEffect(() => {
     const whiteButton = document.querySelector('.whiteButton')
     const ctaArea = document.querySelector('.ctaArea')
@@ -62,7 +64,7 @@ function Cta_(props: CtaProps, ref: HTMLElementRefOf<"div">) {
 
 
   })
-  return <PlasmicCta root={{ ref }} {...props} whiteButton={{}}/>
+  return <PlasmicCta root={{ ref }} {...props} onClick={() => router.push('/about')}/>
 }
 
 const Cta = React.forwardRef(Cta_);
