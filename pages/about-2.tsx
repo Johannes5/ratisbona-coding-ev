@@ -25,9 +25,7 @@ function AboutAlt() {
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
   return (
-    <ph.PageParamsProvider params={useRouter().query} query={useRouter().query}>
       <PlasmicAboutAlt />
-    </ph.PageParamsProvider>
   );
 }
 
